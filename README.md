@@ -3,13 +3,13 @@
 ### Build
 
 ```build
-docker build -t sentinel-dashboard:1.6.2 .
+docker build -t sentinel-dashboard:1.7.1 .
 ```
 
 ### Run
 
 ```shell
-docker run --name sentinel -d -p 8080:8080 registry.cn-shenzhen.aliyuncs.com/bannerxu/sentinel-dashboard:1.6.2
+docker run --name sentinel -d -p 8080:8080 registry.cn-shenzhen.aliyuncs.com/bannerxu/sentinel-dashboard:1.7.1
 ```
 
 ## Environment 
